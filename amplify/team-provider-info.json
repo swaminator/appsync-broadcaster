@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "broadcaster-20190102133933-authRole",
+            "UnauthRoleArn": "arn:aws:iam::033205456844:role/broadcaster-20190102133933-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::033205456844:role/broadcaster-20190102133933-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "broadcaster-20190102133933-deployment",
+            "UnauthRoleName": "broadcaster-20190102133933-unauthRole",
+            "StackName": "broadcaster-20190102133933",
+            "StackId": "arn:aws:cloudformation:us-west-2:033205456844:stack/broadcaster-20190102133933/e4a1ccf0-0ed6-11e9-a1c5-06ccd811a1e0"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "broadcaster",
+    "schemaGraphql": "s3://broadcaster-20190102133933-deployment/amplify-appsync-files/schema.graphql.1546465488157",
+    "ResolverBucket": "broadcaster-20190102133933-deployment",
+    "ResolverRootKey": "amplify-appsync-files",
+    "DeploymentTimestamp": "1546465488157"
+}
