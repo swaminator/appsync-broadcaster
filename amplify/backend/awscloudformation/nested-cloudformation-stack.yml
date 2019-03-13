@@ -81,14 +81,12 @@
 		"apibroadcaster": {
 			"Type": "AWS::CloudFormation::Stack",
 			"Properties": {
-				"TemplateURL": "https://s3.amazonaws.com/broadcaster-20190102133933-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"TemplateURL": "https://s3.amazonaws.com/broadcaster-20190312185259-deployment/amplify-cfn-templates/api/cloudformation-template.json",
 				"Parameters": {
 					"AppSyncApiName": "broadcaster",
-					"schemaGraphql": "s3://broadcaster-20190102133933-deployment/amplify-appsync-files/schema.graphql.1546465488157",
-					"ResolverBucket": "broadcaster-20190102133933-deployment",
-					"ResolverRootKey": "amplify-appsync-files",
-					"DeploymentTimestamp": "1546465488157",
-					"env": "dev"
+					"S3DeploymentBucket": "broadcaster-20190312185259-deployment",
+					"S3DeploymentRootKey": "amplify-appsync-files/ecb8f705920ff79519decce2e10f93da7c9f189d",
+					"env": "local"
 				}
 			}
 		}

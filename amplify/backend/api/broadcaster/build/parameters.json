@@ -1,0 +1,5 @@
+{
+    "AppSyncApiName": "broadcaster",
+    "S3DeploymentBucket": "broadcaster-20190312185259-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/ecb8f705920ff79519decce2e10f93da7c9f189d"
+}
